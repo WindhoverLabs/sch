@@ -31,7 +31,7 @@
  #
  #############################################################################
  
-add_airliner_app_def(sch
+buildliner_add_app_def(sch
     FILE SCH
     SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sch_api.c
@@ -60,7 +60,7 @@ add_airliner_app_def(sch
         ${PROJECT_SOURCE_DIR}/apps/sch/fsw/platform_inc
 )
 
-add_airliner_app_unit_test(sch-ut
+buildliner_add_app_def(sch-ut
     SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sch_api.c
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sch_apipriv.h
