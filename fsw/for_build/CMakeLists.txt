@@ -60,7 +60,7 @@ buildliner_add_app_def(sch
         ${PROJECT_SOURCE_DIR}/apps/sch/fsw/platform_inc
 )
 
-buildliner_add_app_def(sch-ut
+buildliner_add_app_unit_test(sch-ut
     SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sch_api.c
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sch_apipriv.h
