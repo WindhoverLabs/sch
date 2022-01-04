@@ -265,7 +265,7 @@
         <color name="Display Background" red="255" green="255" blue="255" />
       </foreground_color>
       <height>20</height>
-      <image>/Displays/Resources/send.png</image>
+      <image>/Displays/resources/send.png</image>
       <name>EnableButton</name>
       <push_action_index>0</push_action_index>
       <pv_name></pv_name>
@@ -318,7 +318,7 @@
         <color name="Display Background" red="255" green="255" blue="255" />
       </foreground_color>
       <height>20</height>
-      <image>/Displays/Resources/send.png</image>
+      <image>/Displays/resources/send.png</image>
       <name>DisableButton</name>
       <push_action_index>0</push_action_index>
       <pv_name></pv_name>
